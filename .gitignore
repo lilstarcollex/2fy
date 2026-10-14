@@ -1,1 +1,53 @@
-# Dependenciesnode_modules/# Frontend build outputdist/dist-ssr/# Tauri / Rust build output and generated schemassrc-tauri/target/src-tauri/gen/schemas/# Packaged installers and other release artifactsinstallers/*.msi*.exe*.appx*.msix*.dmg*.deb*.rpm# Environment files and local credentials.env.env.*!.env.example*.local*.pem*.p12*.pfx*.key# Logs and temporary fileslogs/*.lognpm-debug.log*yarn-debug.log*pnpm-debug.log*lerna-debug.log**.tmp*.temp# Editor and operating system files.vscode/*!.vscode/extensions.json.idea/.DS_StoreThumbs.dbDesktop.ini*.suo*.ntvs**.njsproj*.sln*.sw?
+# Dependencies
+node_modules/
+
+# Frontend build output
+dist/
+dist-ssr/
+
+# Tauri / Rust build output and generated schemas
+src-tauri/target/
+src-tauri/gen/schemas/
+
+# Packaged installers and other release artifacts
+installers/
+*.msi
+*.exe
+*.appx
+*.msix
+*.dmg
+*.deb
+*.rpm
+
+# Environment files and local credentials
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.p12
+*.pfx
+*.key
+
+# Logs and temporary files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.tmp
+*.temp
+
+# Editor and operating system files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
